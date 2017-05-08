@@ -14,10 +14,9 @@ height: 100%;
 clear: both;
 }
 nav{
-position: absolute;
-margin: 0 0 10px 10px;
-display: inline-flex;
-vertical-align: top;
+list-style: none;
+display: inline;
+white-space:nowrap;
 }
 body {
 color:black;
@@ -38,7 +37,7 @@ ul {
 }
 .image1{
     float: left;
-    width: 10%;
+    width: 15%;
     margin:auto;
     position: relative;
     bottom: 20px;
