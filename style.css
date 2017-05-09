@@ -14,9 +14,27 @@ height: 100%;
 clear: both;
 }
 nav{
-list-style: none;
-display: inline;
-white-space:nowrap;
+text-align: center;
+}
+.btn{
+background-color: turquoise;
+border-radius:28px;
+border:1px solid darkolivegreen;
+display:inline-block;
+cursor:pointer;
+color: black;
+font-style: bold;
+font-family:Arial;
+font-size: 20px;
+padding: 16px 31px;
+text-decoration: none;
+text-shadow: 0px 1px 0px darkslategray;
+}
+.last {
+    transform: rotate(2deg);
+}
+.clear{
+    clear:both;
 }
 body {
 color:black;
